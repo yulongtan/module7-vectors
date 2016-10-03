@@ -12,7 +12,6 @@
 # - Returns whether or not the person guessed accurately (preferrably a character string phrase)
 
 
-
 # Play the marble game by guessing a color!
 
 
