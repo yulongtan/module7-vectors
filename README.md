@@ -5,17 +5,18 @@ In this module, we'll cover the foundational concepts for working with vectors i
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Contents**
 
 - [Resources](#resources)
 - [What is a Vector?](#what-is-a-vector)
-- [Indexing Vectors](#indexing-vectors)
-  - [Position Indexing](#position-indexing)
-  - [Multiple Indicies](#multiple-indicies)
-  - [Logical Indices](#logical-indices)
-- [Modifying Vectors](#modifying-vectors)
+  - [Creating Vectors](#creating-vectors)
 - [Vectorized Operations](#vectorized-operations)
   - [Recycling](#recycling)
+  - [Everything is a Vector!](#everything-is-a-vector)
+  - [Vectorized Functions](#vectorized-functions)
+- [Vector Indices](#vector-indices)
+  - [Multiple Indicies](#multiple-indicies)
+- [Vector Filtering](#vector-filtering)
+- [Modifying Vectors](#modifying-vectors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
