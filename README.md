@@ -230,7 +230,7 @@ name.first <- names[1]
 print(name.first)  # [1] "Sarah"
 
 # access the elemnt at index 2
-name.second <- names[2]  #
+name.second <- names[2]
 print(name.second)  # [1] "Amit"
 
 # You can also use variables inside the brackets
@@ -321,7 +321,7 @@ shoe.is.big <- shoe.sizes > 6.5  # T, F, F, T, T
 big.shoes <- shoe.sizes[shoe.is.big]  # returns 7, 11, 8
 ```
 
-THe magic here is that we are once again using _recycling_: the relational operator `>` is _vectorized_, meaning that the shorter vector (the `6.5`) is recycled and applied to each element in the `shoe.sizes` vector, thus producing the boolean vector that we want!
+The magic here is that we are once again using _recycling_: the relational operator `>` is _vectorized_, meaning that the shorter vector (the `6.5`) is recycled and applied to each element in the `shoe.sizes` vector, thus producing the boolean vector that we want!
 
 We can even combine the second and third lines of code into a single statement. You can think of the following statement as saying _shoe.sizes **where** shoe.sizes is greater than 6.5_:
 
